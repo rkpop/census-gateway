@@ -1,0 +1,26 @@
+#root{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  padding: 15px;
+}
+
+.message{
+  justify-content: center;
+  align-items: center;
+}
+
+.nav>li>a{
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.navbar-inverse{
+  background-color: #021B2E;
+}
